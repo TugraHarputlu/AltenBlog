@@ -1,0 +1,17 @@
+﻿namespace AtenBlog.Api.Domain.Models
+{
+    public class User : BaseEntity
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public bool EmailConfirmed { get; set; }
+
+        
+        public virtual ICollection<Entry> Entries { get; set; }
+        public virtual ICollection<EntryFavorite> EntryFavorites { get; set; }
+        public virtual ICollection<EntryComment> Users { get; set; }
+        public virtual ICollection<EntryCommentFavorite> EntryCommentFavorites { get; set; }
+    }
+}
