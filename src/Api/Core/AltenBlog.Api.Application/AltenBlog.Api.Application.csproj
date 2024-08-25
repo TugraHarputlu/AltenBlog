@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AtenBlog.Api.Domain\AtenBlog.Api.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

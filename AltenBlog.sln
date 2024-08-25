@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02AB54E3-B54D-4CBC-BE7C-F8350AA34052}"
+	ProjectSection(SolutionItems) = preProject
+		migration.md = migration.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{61C01D56-376D-461D-9D99-9E3BEDE53DD1}"
 EndProject
@@ -25,11 +28,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{0B8A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWeb", "BlazorWeb", "{E743345F-A98B-4D0C-9E2C-2AF2BA3CEACA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenBlog.WebApp", "src\Clients\BlazorWeb\AltenBlog.WebApp\AltenBlog.WebApp.csproj", "{06728971-B7E3-46DD-BF74-5CC035367AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenBlog.WebApp", "src\Clients\BlazorWeb\AltenBlog.WebApp\AltenBlog.WebApp.csproj", "{06728971-B7E3-46DD-BF74-5CC035367AB2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{8AF6E4AC-B011-4A29-BD61-98EEE8FEEAEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenBlog.Api.WebApi", "src\Api\WebApi\AltenBlog.Api.WebApi\AltenBlog.Api.WebApi.csproj", "{184695E2-2C8C-4F8B-A015-B839944AC3FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenBlog.Api.WebApi", "src\Api\WebApi\AltenBlog.Api.WebApi\AltenBlog.Api.WebApi.csproj", "{184695E2-2C8C-4F8B-A015-B839944AC3FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
