@@ -7,7 +7,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.2" />
+    <PackageReference Include="MediatR" Version="12.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.5.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\AtenBlog.Api.Domain\AtenBlog.Api.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Commands\EntryComment\CreateFav\" />
+    <Folder Include="Features\Commands\EntryComment\CreateVote\" />
+    <Folder Include="Features\Commands\EntryComment\Create\" />
+    <Folder Include="Features\Commands\EntryComment\DeleteFav\" />
+    <Folder Include="Features\Commands\EntryComment\DeleteVote\" />
+    <Folder Include="Features\Commands\Entry\CreateFav\" />
+    <Folder Include="Features\Commands\Entry\CreateVote\" />
+    <Folder Include="Features\Commands\Entry\Create\" />
+    <Folder Include="Features\Commands\Entry\DeleteFav\" />
+    <Folder Include="Features\Commands\Entry\DeleteVote\" />
+    <Folder Include="Features\Commands\User\ConfirmEmail\" />
+    <Folder Include="Features\Queries\" />
   </ItemGroup>
 
 </Project>

@@ -5,5 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.0" />
+    <!--//RabbitMQ Quefactori ile bir quu olusturup excange üserinden gönderme yapabilmak icin-->
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+  </ItemGroup>
 </Project>

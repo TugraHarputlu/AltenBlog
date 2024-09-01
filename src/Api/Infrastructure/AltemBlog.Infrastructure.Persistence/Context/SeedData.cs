@@ -29,7 +29,7 @@ namespace AltemBlog.Infrastructure.Persistence.Context
         }
 
         //datanin eklenmesi islemleri 
-        public async Task SeedAsync(IConfiguration configuration)
+        public static async Task SeedAsync(IConfiguration configuration)
         {
             // burada dbcontexi olusturuyoruz
             var dbContextBuilder = new DbContextOptionsBuilder();
